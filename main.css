@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes floatx {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes floatmx {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes head {
+    0% {font-size:100%; opacity:0;}
+    13% {font-size:100%;opacity:1; content: "Web3"}
+    26% {font-size:100%; opacity:0;}
+    39% {font-size:100%;opacity:1; content: "Stellar"}
+    52% {font-size:100%; opacity:0;}
+    65% {font-size:100%;opacity:1; content: "DeFi"}
+    78% {font-size:100%; opacity:0;}
+    91% {font-size:100%;opacity:1; content: "Security"}
+    100% {font-size:100%; opacity:0;}
+}
+
+
+@keyframes pendulum1 {
+    0% {transform: translateX(0);}
+    10% {transform: translateX(-20px);}
+    15% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes pendulum2 {
+    0% {transform: translateX(0);}
+    15% {transform: translateX(0px);}
+    20% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+
+@keyframes pendulum3 {
+    0% {transform: translateX(0);}
+    20% {transform: translateX(0px);}
+    25% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+
+.headtext:before{
+    content: '';
+    font-size: 100%;
+    animation-name: head;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+
+
+body {
+    background-color: #f0f0f0;
+    height: 100vh;
+    background-image: url("./bgd.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#heading {
+
+}
+
+#home {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    height: 100%;
+}
+
+.heading-descr p {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    animation: floatx 4s infinite;
+}
+
+
+.skilltext {
+    color: #ff55f1;
+}
+
+.skillplustext {
+    color: #006eff;
+}
+
+.heading-subtitle {
+    padding-top: 5vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #252525;
+    height: 10vh;
+
+}
+
+.heading-links {
+    margin-top: 5vh;
+}
+
+.headicon {
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+#icon1 {
+    animation: pendulum1 2s infinite;
+}
+
+#icon2 {
+    animation: pendulum2 2s infinite;
+}
+
+#icon3 {
+    animation: pendulum3 2s infinite;
+}
+
+
+.sep {
+    margin-top: 10vh;
+}
+
+*
+.heading-title {
+    font-family: 'Poppins', sans-serif;
+    animation: float 1s ease-in-out infinite;
+    border: 25px solid #0066FF;
+    width: 310px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+#content h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    animation: floatmx 4s ease-in-out infinite;
+}
+
+
+.projectname a {
+    text-decoration: underline;
+    color: #e2a4ff;
+}
+
+.project-subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #d8d8d8;
+    font-size: 1rem;
+    margin-top: 5vh;
+    animation: floatx 4s ease-in-out infinite;
+}
