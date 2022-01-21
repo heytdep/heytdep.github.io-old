@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'commune-nuit_debout_web';
+    src: url('./commune-nuit_debout_web\ \(2\).eot');
+    src: url('/commune-nuit_debout_web\ \(3\).eot') format('embedded-opentype'),
+         url('./commune-nuit_debout_web\ \(1\).woff') format('woff2'),
+         url('./commune-nuit_debout_web\ \(1\).woff') format('woff'),
+         url('./commune-nuit_debout_web.ttf') format('truetype'),
+         url('https://velvetyne.fr/site/assets/files/1635/commune-nuit_debout_web.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+    
+    
+body {
+
+    background: #060053;
+}
+
+
+
+@keyframes pendulum1 {
+    0% {transform: translateX(0);}
+    10% {transform: translateX(-20px);}
+    15% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+@keyframes pendulum2 {
+    0% {transform: translateX(0);}
+    15% {transform: translateX(0px);}
+    20% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+
+@keyframes pendulum3 {
+    0% {transform: translateX(0);}
+    20% {transform: translateX(0px);}
+    25% {transform: translateX(20px);}
+    100% {transform: translateX(0);}
+}
+
+
+
+.headicon {
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.skill-text {
+    background: linear-gradient( 
+90deg, #f8be53 40%, #ff8e24 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#icon1 {
+    animation: pendulum1 2s infinite;
+}
+
+#icon2 {
+    animation: pendulum2 2s infinite;
+}
+
+#icon3 {
+    animation: pendulum3 2s infinite;
+}
+
+#home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+#heading {
+    position: relative;
+    height: 100vh;
+}
+
+#heading-container {
+    height: 50%;
+    padding: 5vh;
+    position: absolute;
+    display: block;
+    top: 20vh;
+    left: 0px;
+}
+
+
+#center {
+    display: block;
+    width: 30%;
+}
+
+#sidebar {
+    display: block;
+    width: 10%;
+}
+
+.heading-text-container h1, h2, h3 {
+    color: white;
+    
+}
+
+#name {
+    color: white;
+    font-size: 20vh;
+    text-transform: uppercase;
+    line-height: 18vh;
+    margin-top: 2vh;
+    font-family: 'commune-nuit_debout_web';
+    
+}
+
+#intro {
+    color: white;
+    font-size: 3vh;
+    font-family: 'Neue Montreal';
+    text-transform: uppercase;
+}
+
+
+#description {
+    max-width: 50vw;
+    color: white;
+    font-size: 2vh;
+    font-family: 'Neue Montreal';
+    text-transform: uppercase;
+}
+
+#links {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin-top: 5vh;
+}
+
+.heading-links {
+    padding-top: 5vh;
+}
+
+.headicon {
+    color: white;
+}
+
+#about {
+    margin-top: 10vh;
+}
+
+.about-text-title {
+    text-align: center;
+    font-size: 15vh;
+    color: white;
+    font-family: 'commune-nuit_debout_web';
+    text-transform: uppercase;
+}
+
+.about-text {
+    width: 80%;
+    margin: auto;
+    max-width: 1500px;
+    margin: auto;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Neue Montreal';
+    padding-bottom: 5vh;
+}
+
+.about-text a {
+    color: violet;
+}

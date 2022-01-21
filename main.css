@@ -104,7 +104,8 @@ body {
 }
 
 #home {
-    
+   height: 100vh;
+   
 }
 
 .heading-descr p {
@@ -126,7 +127,7 @@ body {
 }
 
 .skill-container {
-    background: #ffa98a;
+    background: #00098a;
     width: 200px;
     height: 70px;
     margin: auto;
@@ -162,7 +163,7 @@ body {
     height: 50px;
     margin-top: 10px;
     margin-left: 10px;
-    background-color: #ff8f33;
+    background-color: #2231be;
     border-radius: 10px;
 
     line-height: 40px;
@@ -239,10 +240,7 @@ body {
 }
 
 #content {
-    background-image: url("./bgd.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    
 }
 
 #content h1 {

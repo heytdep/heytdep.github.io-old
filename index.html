@@ -4,51 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tdep</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./creative.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Questrial&family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/7980cc1889b6b0b264dc47cca659f7c2?family=Neue+Montreal" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
+    <title>tdep</title>
 </head>
 <body>
-
     <div id="home">
+     
         <div id="heading">
-            <div class="sep"></div>
-            <div class="heading-links">
-                <a href="https://tdep.medium.com" ><i id="icon1" class="headicon fab fa-medium-m"></i></a>
-                <a href="https://twitter.com/heytdep" ><i id="icon2" class="headicon fab fa-twitter"></i></a>
-                <a href="https://github.com/heytdep" ><i id="icon3" class="headicon fab fa-github"></i></a>
-            </div>
-            <div class="heading-title">
-                <h1>Tommaso De Ponti</h1>
-            </div>
-            <div class="heading-subtitle">
-                <h2 class="headtext" id="text1"></h2>
+            <div id="heading-container">
+                
+                <div class="heading-text-container" id="intro">
+                    Independent <br/> development
                 </div>
-            <div class="heading-descr">
-                <p>Hello there! My name is Tommaso. I am a developer and my skills range from <span class="skilltext">Backend</span> and <span class="skilltext">APIs</span>, to <span class="skilltext">Smart Contracts</span> and <span class="skilltext">Frontend</span>. I mainly work with <span class="skilltext">Javascript</span> & <span class="skilltext">Typescript</span>, and my everyday work has me using some of the most well-known tools (Github, Cloudflare, etc). I also have a passion for <span class="skillplustext">Web3</span>, specifically the design of <span class="skillplustext">decentralized protocols</span> that leverage the <span class="skillplustext">Stellar Network</span>, as a matter of fact I am building one. As a side note, I also spent some time doing bug bounties (see my acknowledgments), thus have a solid knowledge on designing safe applications.</p>
+                <div class="heading-text-container" id="name">
+                    Tommaso <br/>
+                     De Ponti.
+                </div>
+                <div class="heading-text-container" id="description">
+                    fullstack developer who loves <span class="skill-text">decentralized protocols</span> & <span class="skill-text">open networks</span>.
+                </div>
+                <div class="heading-links">
+                    <a href="https://tdep.medium.com" ><i id="icon1" class="headicon fab fa-medium-m"></i></a>
+                    <a href="https://twitter.com/heytdep" ><i id="icon2" class="headicon fab fa-twitter"></i></a>
+                    <a href="https://github.com/heytdep" ><i id="icon3" class="headicon fab fa-github"></i></a>
+                </div>
             </div>
             
         </div>
-        <div id="content">
+        <div id="about">
+            <div class="about-text-container" id="about-text">
+                <div class="about-text-title">
+                    About me
+                </div>
+                <div class="about-text">
+                    Hi, I'm Tommaso. I'm a fullstack developer from Italy. I have got a fairly good level of english and can speak natively Italian and Spanish (latin american). I mainly work indipendently on personal projects, but don't exclude working on other great projects (contact me on <a href="https://twitter.com/heytdep">twitter</a>).
+                    <br/><br/>
+                    I have a strong knowledge of <span class="skill-text">blockchain</span>, and am currently leveraging the <span class="skill-text">Stellar Network</span>
+                    to build a <span class="skill-text">decentralized protocol</span> for a marketplace of experimental <span class="skill-text">NFTs</span> that allow users to share their ownership and earn passively.
+                    The project is called Smart Artists, and you can track the progrss of the project <a href="https://docs.smartartists.art/">here</a>.
 
-            <div id="skills">
-                <div class="skill-container"><div class="skill"><p>Javascript</p></div></div>
-                <div class="skill-container"><div class="skill"><p>Typescript</p></div></div>
-                <div class="skill-container"><div class="skill"><p>Web3</p></div></div>
-                <div class="skill-container"><div class="skill"><p>FullStack</p></div></div>
-            </div>
+                    <br/><br/>
+                    I'm also doing deep research into the governance of <span class="skill-text">decentralized protocols</span>, and looking forward publishing research papers in the near future.
 
-            <div class="project-card">
-                <h1>Currently Working On <span class="projectname"><a target="_blank" href="https://docs.smartartists.art">Smart Artists</a><span class="smaller">[ALPHA soon]</span></span></h1>
-                <h3 class="project-subtitle">A decentralized protocol and marketplace for special NFTs. <br/><br/> Entirely built on Stellar. With this project I am wrapping most of my skills together in one big app: frontend, serverless, smart contracts (Stellar), and DeFi architecture (governance and protocol design).</h3>
-            </div>
-            
+                    <br/><br/>
+
+                    I also have a blog with over 1K followers <a href="https://tdep.medium.com">here</a>, I will soon be publishing about DeFi, Stellar, and Web3 in general, you don't wanna miss it!
+                </div>
         </div>
-    </div>
-    
+        </div>
+        <!--
+        <div id="center"></div>
+        <div id="sidebar"></div>
+        -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "#home",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  spacing: 20.0,
+  color: 0xff91ab,
+  backgroundColor: 0xb0057
+})
+</script>
 </body>
 </html>
